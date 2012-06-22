@@ -5,7 +5,8 @@ my @tests = (
     ["abc", "abc",  3],
     ["abba", "abba", 4],
     ["DWAYNE", "DUANE", 5],
-    ["MARTHA", "MARHTA", 6]
+    ["MARTHA", "MARHTA", 6],
+    ["SDNEY", "SYDNEY", 5]
 );
     
 for my $test (@tests) {
