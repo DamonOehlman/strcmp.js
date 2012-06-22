@@ -1,7 +1,8 @@
 (function (glob) {
   var jaro = (function() {
       
-      var toArray = Array.prototype.slice;
+      var toArray = Array.prototype.slice,
+          placeholder = ''
       
       function getCommon(s1, s2, opts) {
           var matches = [],
@@ -12,7 +13,7 @@
                   diff = Math.abs(index - ii);
               
               if (index >= 0 && diff <= opts.matchWindow) {
-                  matches = matches.concat(s2.splice(index, 1, ' '));
+                  matches = matches.concat(s2.splice(index, 1, null));
               }
           }
           
@@ -44,7 +45,7 @@
       }
       
       function notEmpty(char) {
-          return char !== ' ';
+          return char;
       }
       
       function countTranspositions(m1, m2) {

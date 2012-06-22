@@ -9,6 +9,8 @@ describe('jaro distance string comparison', function() {
     it('should be able to compare strings that are EXACTLY equal', function() {
         expect(strcmp('abc', 'abc', opts)).to.equal(1);
         expect(strcmp('abba', 'abba', opts)).to.equal(1);
+        expect(strcmp('a b c', 'a b c', opts)).to.equal(1);
+        expect(strcmp('WEST END', 'WEST END', opts)).to.equal(1);
     });
     
     it('should be able to evaluate string similarity', function() {
