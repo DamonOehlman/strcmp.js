@@ -1,0 +1,32 @@
+{
+  "name": "strcmp",
+  "description": "String Comparison Functions",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "tags": [
+    "string",
+    "compare",
+    "distance"
+  ],
+  "version": "0.0.0",
+  "main": "pkg/cjs/strcmp",
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.2.x",
+    "expect.js": "0.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/strcmp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/strcmp/issues"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "contributors": [],
+  "optionalDependencies": {}
+}
