@@ -2,4 +2,26 @@
 
 Some string comparison functions which have been written to help me grok the algorithms.  If you are after this kind of thing and more natural language goodness, I'd recommend checking out [natural](https://github.com/NaturalNode/natural) (although I think the  [Jaro-Winkler distance](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) implementation is broken at the moment).
 
-At the moment, check out the tests for example usage.
+## Example Usage
+
+At the moment, check out the tests for example usage, but it kind of looks like this:
+
+```js
+strcmp('MARTHA', 'MARHTA', { algorithm: 'jaro', precision: 3 });
+// 0.944
+
+strcmp('MARTHA', 'MARHTA', { algorithm: 'jaro-winkler', precision: 3 });
+// 0.961
+```
+
+OR
+
+```js
+strcmp.jaro('MARTHA', 'MARHTA');
+// 0.9444444444444445
+
+strcmp.jaroWinkler('MARTHA', 'MARHTA');
+// 0.9611111111111111
+```
+
+If you are using node, then just `npm install strcmp` and require as you would any other module.  For the browser, check out either the [oldschool](/DamonOehlman/strcmp.js/blob/master/pkg/oldschool/strcmp.js) or [amd](/DamonOehlman/strcmp.js/blob/master/pkg/amd/strcmp.js) builds.
