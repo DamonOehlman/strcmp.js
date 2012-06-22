@@ -1,6 +1,6 @@
 function jaroWinkler(s1, s2, opts) {
     var dj = jaro(s1, s2, opts),
-        commonPrefixLen;
+        commonPrefixLen = 0;
         
     // if the jaro distance is 0, then pass that on
     if (dj === 0) return 0;

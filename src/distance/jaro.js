@@ -80,7 +80,7 @@ var jaro = (function() {
         opts = opts || {};
         
         // initialise the match window
-        opts.matchWindow = opts.matchWindow || 2;
+        opts.matchWindow = opts.matchWindow || 3;
         
         // if we are ignoring case, convert s1 and s2 to lower case strings
         if (typeof opts.ignoreCase == 'undefined' || opts.ignoreCase) {

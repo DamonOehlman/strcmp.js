@@ -81,7 +81,7 @@
           opts = opts || {};
           
           // initialise the match window
-          opts.matchWindow = opts.matchWindow || 2;
+          opts.matchWindow = opts.matchWindow || 3;
           
           // if we are ignoring case, convert s1 and s2 to lower case strings
           if (typeof opts.ignoreCase == 'undefined' || opts.ignoreCase) {
@@ -112,7 +112,7 @@
   }());
   function jaroWinkler(s1, s2, opts) {
       var dj = jaro(s1, s2, opts),
-          commonPrefixLen;
+          commonPrefixLen = 0;
           
       // if the jaro distance is 0, then pass that on
       if (dj === 0) return 0;
