@@ -1,3 +1,6 @@
+
+
+
 var jaro = (function() {
     
     var toArray = Array.prototype.slice,
@@ -185,3 +188,7 @@ function strcmp(s1, s2, opts) {
 // bind the alrogithms to the strcmp function
 strcmp.jaro = jaro;
 strcmp.jaroWinkler = jaroWinkler;
+
+if (typeof strcmp != 'undefined') {
+    module.exports = strcmp;
+}
