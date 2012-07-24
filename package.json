@@ -7,7 +7,7 @@
     "compare",
     "distance"
   ],
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "dist/commonjs/strcmp",
   "engines": {
     "node": ">= 0.4.x"
