@@ -28,4 +28,4 @@ strcmp.jaroWinkler('MARTHA', 'MARHTA');
 // 0.9611111111111111
 ```
 
-If you are using node, then just `npm install strcmp` and require as you would any other module.  For the browser, check out either the [oldschool](/DamonOehlman/strcmp.js/blob/master/pkg/oldschool/strcmp.js) or [amd](/DamonOehlman/strcmp.js/blob/master/pkg/amd/strcmp.js) builds.
+If you are using node, then just `npm install strcmp` and require as you would any other module.
