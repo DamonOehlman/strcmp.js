@@ -2,7 +2,7 @@
   "name": "strcmp",
   "repo": "DamonOehlman/strcmp.js",
   "description": "Some Javascript String Comparison Functions ",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "string",
     "comparison"
