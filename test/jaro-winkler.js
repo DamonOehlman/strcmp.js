@@ -1,4 +1,4 @@
-var strcmp = require('../dist/commonjs/strcmp'),
+var strcmp = require('../strcmp'),
     expect = require('expect.js'),
     opts = {
         algorithm: 'jaro-winkler',

@@ -1,5 +1,26 @@
+/* ~strcmp~
+ * 
+ * String Comparison Functions
+ * 
+ * -meta---
+ * version:    0.1.0
+ * builddate:  2012-10-30T04:26:46.877Z
+ * generator:  interleave@0.5.23
+ * 
+ * 
+ * 
+ */ 
 
-define('strcmp', [], function() {
+// umdjs returnExports pattern: https://github.com/umdjs/umd/blob/master/returnExports.js
+(function (root, factory) {
+    if (typeof exports === 'object') {
+        module.exports = factory();
+    } else if (typeof define === 'function' && define.amd) {
+        define([], factory);
+    } else {
+        root['strcmp'] = factory();
+    }
+}(this, function () {
     var jaro = (function() {
         
         var toArray = Array.prototype.slice,
@@ -189,4 +210,4 @@ define('strcmp', [], function() {
     strcmp.jaroWinkler = jaroWinkler;
     
     return typeof strcmp != 'undefined' ? strcmp : undefined;
-});
+}));
