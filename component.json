@@ -7,8 +7,9 @@
     "string",
     "comparison"
   ],
-  "main": "strcmp.js",
   "scripts": [
-    "strcmp.js"
+    "index.js",
+    "algorithms/jaro.js",
+    "algorithms/jaro-winkler.js"
   ]
 }

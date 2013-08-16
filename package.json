@@ -8,14 +8,9 @@
     "distance"
   ],
   "version": "0.1.1",
-  "main": "strcmp",
-  "engines": {
-    "node": ">= 0.4.x"
-  },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "1.6.x",
-    "expect.js": "0.1.x"
+    "tape": "~1.0.4"
   },
   "repository": {
     "type": "git",
@@ -25,8 +20,25 @@
     "url": "http://github.com/DamonOehlman/strcmp/issues"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "$(npm bin)/tape test/all.js"
   },
-  "contributors": [],
-  "optionalDependencies": {}
+  "testling": {
+    "files": "test/all.js",
+    "browsers": {
+      "ie": [ "latest" ],
+      "ff": [ "latest", "nightly" ],
+      "chrome": [ "latest", "canary" ],
+      "opera": [ "latest", "next" ],
+      "safari": [ "latest" ]
+    }
+  },  
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "string",
+    "compare",
+    "distance"
+  ],
+  "license": "MIT"
 }
