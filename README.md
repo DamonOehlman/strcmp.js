@@ -13,10 +13,10 @@ refining the implementation in the natural library.
 
 [![NPM](https://nodei.co/npm/strcmp.png)](https://nodei.co/npm/strcmp/)
 
-[![Build Status](https://travis-ci.org/DamonOehlman/strcmp.png?branch=master)](https://travis-ci.org/DamonOehlman/strcmp)
+[![Build Status](https://travis-ci.org/DamonOehlman/strcmp.js.png?branch=master)](https://travis-ci.org/DamonOehlman/strcmp.js)
 [![unstable](http://hughsk.github.io/stability-badges/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
-[![browser support](https://ci.testling.com/DamonOehlman/strcmp.png)](https://ci.testling.com/DamonOehlman/strcmp)
+[![browser support](https://ci.testling.com/DamonOehlman/strcmp.js.png)](https://ci.testling.com/DamonOehlman/strcmp.js)
 
 
 ## Example Usage

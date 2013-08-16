@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/DamonOehlman/strcmp.git"
+    "url": "git://github.com/DamonOehlman/strcmp.js.git"
   },
   "bugs": {
-    "url": "http://github.com/DamonOehlman/strcmp/issues"
+    "url": "http://github.com/DamonOehlman/strcmp.js/issues"
   },
   "scripts": {
     "test": "$(npm bin)/tape test/all.js",
