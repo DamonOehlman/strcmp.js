@@ -20,7 +20,8 @@
     "url": "http://github.com/DamonOehlman/strcmp/issues"
   },
   "scripts": {
-    "test": "$(npm bin)/tape test/all.js"
+    "test": "$(npm bin)/tape test/all.js",
+    "gendocs": "gendocs > README.md"
   },
   "testling": {
     "files": "test/all.js",
