@@ -7,7 +7,7 @@
     "compare",
     "distance"
   ],
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {},
   "devDependencies": {
     "tape": "~1.0.4"
@@ -26,13 +26,26 @@
   "testling": {
     "files": "test/all.js",
     "browsers": {
-      "ie": [ "latest" ],
-      "ff": [ "latest", "nightly" ],
-      "chrome": [ "latest", "canary" ],
-      "opera": [ "latest", "next" ],
-      "safari": [ "latest" ]
+      "ie": [
+        "latest"
+      ],
+      "ff": [
+        "latest",
+        "nightly"
+      ],
+      "chrome": [
+        "latest",
+        "canary"
+      ],
+      "opera": [
+        "latest",
+        "next"
+      ],
+      "safari": [
+        "latest"
+      ]
     }
-  },  
+  },
   "directories": {
     "test": "test"
   },
