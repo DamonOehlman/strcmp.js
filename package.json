@@ -11,6 +11,9 @@
   "version": "0.2.0",
   "dependencies": {},
   "devDependencies": {
+    "broth": "^1.1.1",
+    "browserify": "^9.0.3",
+    "tap-spec": "^2.2.2",
     "tape": "^3.5.0",
     "travis-multirunner": "^1.1.0"
   },
@@ -22,8 +25,9 @@
     "url": "http://github.com/DamonOehlman/strcmp.js/issues"
   },
   "scripts": {
-    "test": "node test/all.js",
-    "gendocs": "gendocs > README.md"
+    "test": "node test/all.js && npm run browser-test",
+    "gendocs": "gendocs > README.md",
+    "browser-test": "browserify test/all.js | broth ./node_modules/travis-multirunner/start-$BROWSER.sh | tap-spec"
   },
   "testling": {
     "files": "test/all.js"
