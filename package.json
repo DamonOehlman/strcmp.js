@@ -20,31 +20,11 @@
     "url": "http://github.com/DamonOehlman/strcmp.js/issues"
   },
   "scripts": {
-    "test": "$(npm bin)/tape test/all.js",
+    "test": "node test/all.js",
     "gendocs": "gendocs > README.md"
   },
   "testling": {
-    "files": "test/all.js",
-    "browsers": {
-      "ie": [
-        "latest"
-      ],
-      "ff": [
-        "latest",
-        "nightly"
-      ],
-      "chrome": [
-        "latest",
-        "canary"
-      ],
-      "opera": [
-        "latest",
-        "next"
-      ],
-      "safari": [
-        "latest"
-      ]
-    }
+    "files": "test/all.js"
   },
   "directories": {
     "test": "test"
