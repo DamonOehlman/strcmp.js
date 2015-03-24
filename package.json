@@ -1,7 +1,7 @@
 {
   "name": "strcmp",
   "description": "String Comparison Functions",
-  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "tags": [
     "string",
     "compare",
