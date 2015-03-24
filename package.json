@@ -2,6 +2,7 @@
   "name": "strcmp",
   "description": "String Comparison Functions",
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "stability": "unstable",
   "tags": [
     "string",
     "compare",
