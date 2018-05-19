@@ -12,7 +12,8 @@
   "dependencies": {},
   "devDependencies": {
     "broth": "^1.1.1",
-    "browserify": "^9.0.3",
+    "browserify": "16",
+    "embellish-readme": "^1.3.0",
     "tap-spec": "^2.2.2",
     "tape": "^3.5.0",
     "travis-multirunner": "^1.1.0"
@@ -26,7 +27,7 @@
   },
   "scripts": {
     "test": "node test/all.js && npm run browser-test",
-    "gendocs": "gendocs > README.md",
+    "embellish": "embellish README.md",
     "browser-test": "browserify test/all.js | broth ./node_modules/travis-multirunner/start-$BROWSER.sh | tap-spec"
   },
   "testling": {

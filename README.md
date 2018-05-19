@@ -5,15 +5,14 @@ the algorithms.  If you are after this kind of thing and more natural
 language goodness, I'd recommend checking out
 [natural](https://github.com/NaturalNode/natural).
 
-__NOTE:__ I'm not a maths / algorithms geek, and the implementation here 
+**NOTE:** I'm not a maths / algorithms geek, and the implementation here 
 could probably be sped up / made more correct by someone if they wanted to.
 If you are that kind of person though, your time is probably better spent
 refining the implementation in the natural library.
 
-
 [![NPM](https://nodei.co/npm/strcmp.png)](https://nodei.co/npm/strcmp/)
 
-[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) [![Build Status](https://img.shields.io/travis/DamonOehlman/strcmp.js.svg?branch=master)](https://travis-ci.org/DamonOehlman/strcmp.js) [![bitHound Score](https://www.bithound.io/github/DamonOehlman/strcmp.js/badges/score.svg)](https://www.bithound.io/github/DamonOehlman/strcmp.js) 
+[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) [![Build Status](https://api.travis-ci.org/DamonOehlman/strcmp.js.svg?branch=master)](https://travis-ci.org/DamonOehlman/strcmp.js)
 
 ## Example Usage
 
@@ -42,7 +41,7 @@ strcmp.jaroWinkler('MARTHA', 'MARHTA');
 
 ### MIT
 
-Copyright (c) 2015 Damon Oehlman <damon.oehlman@gmail.com>
+Copyright (c) 2015 Damon Oehlman <&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x64;&#97;&#109;&#111;&#x6e;&#46;&#x6f;&#x65;&#x68;&#108;&#109;&#x61;&#110;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -62,3 +61,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
